@@ -1,8 +1,6 @@
 name: Create a release pull-request
 on:
-  push:
-    branches:
-      - dev
+  workflow_dispatch
 jobs:
   release_pull_request:
     runs-on: ubuntu-latest
